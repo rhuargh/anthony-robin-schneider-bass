@@ -6,6 +6,7 @@ body {
 
 body {
     @include serif-font;
+    -webkit-tap-highlight-color: $theme-dark;
 }
 
 hr {
@@ -333,6 +334,10 @@ header {
     width: 33.33%;
 }
 
+.email-input, .message-input {
+    margin: 10px;
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
@@ -356,8 +361,3 @@ img::-moz-selection {
     color: white;
     background: transparent;
 }
-
-body {
-    -webkit-tap-highlight-color: $theme-dark;
-}
-
